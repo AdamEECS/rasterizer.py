@@ -52,4 +52,3 @@ class Window(object):
         print('key event', key, key_is_down)
         cmd = self.handlers.get(key, self.cmd404)
         cmd()
-
